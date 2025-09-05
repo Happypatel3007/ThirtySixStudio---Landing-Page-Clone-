@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "PPNeueMontreal-Regular";
+  src: url(./assets/fonts/PPNeueMontreal-Regular.48a63c42.woff2);
+}
+@font-face {
+  font-family: "PPNeueMontreal-Medium";
+  src: url(./assets/fonts/PPNeueMontreal-Medium.431960c2.woff2);
+}
+body {
+  background-color: white;
+  color: black;
+  font-family: "PPNeueMontreal-Regular", sans-serif;
+  overflow-x: hidden;
+}
+html.dark body {
+    background-color: black;
+    color: white;
+}
+body.red {
+    background-color: #fd2c2a;
+}
+.rotate-text {
+  animation: rotate 15s linear infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
